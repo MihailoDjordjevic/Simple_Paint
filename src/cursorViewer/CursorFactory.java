@@ -76,7 +76,6 @@ public class CursorFactory implements Subscriber {
     public void setIconCursor(String s){
 
         iconFileName = s;
-        image = getImage();
 
         isUpdateable = iconFileName == null;
 
