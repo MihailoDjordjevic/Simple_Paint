@@ -24,7 +24,7 @@ public class Toolbar extends JToolBar {
         setSize(300, 50);
         setBackground(Color.PINK);
         add(new Slider());
-        add(new SimpleColorPicker());
+        add(SimpleColorPicker.simpleColorPicker);
         add(new LineTypePicker());
         add(new ShapeTypePicker());
 

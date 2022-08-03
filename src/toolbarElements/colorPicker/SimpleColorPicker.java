@@ -39,7 +39,7 @@ public class SimpleColorPicker extends JPanel implements Publisher {
 
     private JPanel mainColorContainer = new JPanel();
 
-    public SimpleColorPicker() {
+    private SimpleColorPicker() {
 
         setPreferredSize(new Dimension(120,50));
         setSize(new Dimension(120,50));
